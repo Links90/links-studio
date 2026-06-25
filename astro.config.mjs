@@ -1,6 +1,8 @@
 import { defineConfig } from 'astro/config';
 
 export default defineConfig({
-  base: '/studio',
+  build: {
+    assetsPrefix: '/studio'
+  },
   trailingSlash: 'never'
 });
