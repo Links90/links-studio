@@ -1,18 +1,20 @@
-import { defineConfig } from 'astro/config';
-import cloudflare from '@astrojs/cloudflare';
-
-const assetsPrefix = process.env.ASSETS_PREFIX || process.env.BASE_URL || '/studio';
+import { defineConfig } from "astro/config";
+import cloudflare from "@astrojs/cloudflare";
 
 export default defineConfig({
-  adapter: cloudflare({
-    imageService: 'passthrough',
-    workerEntryPoint: {
-      path: './src/worker.js'
-    }
-  }),
-  output: 'server',
+  base: "/studio",
+  output: "server",
+
   build: {
-    assetsPrefix
+    assetsPrefix: "/studio",
   },
-  trailingSlash: 'never'
+
+  adapter: cloudflare({
+    platformProxy: {
+      enabled: true,
+    },
+    imageService: "passthrough",
+  }),
+
+  trailingSlash: "never",
 });
