@@ -1,15 +1,5 @@
 {
-  "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "links-studio",
-  "main": "./dist/_worker.js/index.js",
-  "compatibility_date": "2025-04-15",
-  "compatibility_flags": ["nodejs_compat"],
-  "assets": {
-    "binding": "ASSETS",
-    "directory": "./dist",
-    "run_worker_first": true
-  },
-  "observability": {
-    "enabled": true
+  "cloud": {
+    "framework": "astro"
   }
 }
