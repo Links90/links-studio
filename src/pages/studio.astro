@@ -1,0 +1,771 @@
+---
+import '../styles/styles.css';
+
+const title = 'Luxury Hospitality Branding & Creative Direction | LINKS Studio';
+const description = 'LINKS Studio creates brands, stories and digital experiences for remarkable destinations, helping exceptional places communicate their true value.';
+const canonicalPath = '/studio';
+const socialImage = '/studio/assets/web/hero-banner-01.jpg';
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{title}</title>
+    <meta name="description" content={description}>
+    <link rel="canonical" href={canonicalPath}>
+    <meta property="og:type" content="website">
+    <meta property="og:title" content={title}>
+    <meta property="og:description" content={description}>
+    <meta property="og:url" content={canonicalPath}>
+    <meta property="og:image" content={socialImage}>
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content={title}>
+    <meta name="twitter:description" content={description}>
+    <meta name="twitter:image" content={socialImage}>
+  </head>
+  <body>
+    <header class="site-header" aria-label="Primary navigation">
+      <nav class="nav-bar">
+        <div class="container-nav">
+          <a class="brand brand-logo nav-logo" href="/" aria-label="LINKS Studio home">
+            <img src="/studio/assets/web/logo-dark.png" alt="LINKS Studio" decoding="async">
+          </a>
+
+          <div class="nav-desktop-link-wrapper" aria-label="Desktop navigation">
+            <a href="#introduction" class="nav-link-desktop">
+              <span class="nav-text-wrapper"><span class="nav-text">Introduction</span><span class="nav-text">Introduction</span></span>
+            </a>
+            <a href="#problem" class="nav-link-desktop">
+              <span class="nav-text-wrapper"><span class="nav-text">Problem</span><span class="nav-text">Problem</span></span>
+            </a>
+            <a href="#solution" class="nav-link-desktop">
+              <span class="nav-text-wrapper"><span class="nav-text">Solution</span><span class="nav-text">Solution</span></span>
+            </a>
+            <a href="#experience" class="nav-link-desktop">
+              <span class="nav-text-wrapper"><span class="nav-text">Experience</span><span class="nav-text">Experience</span></span>
+            </a>
+            <a href="#services" class="nav-link-desktop">
+              <span class="nav-text-wrapper"><span class="nav-text">Services</span><span class="nav-text">Services</span></span>
+            </a>
+            <a href="#contact" class="nav-link-desktop">
+              <span class="nav-text-wrapper"><span class="nav-text">Contact</span><span class="nav-text">Contact</span></span>
+            </a>
+          </div>
+
+          <button class="button-menu" type="button" aria-label="Open menu" aria-controls="mobile-nav-content" aria-expanded="false">
+            <span class="button-menu-wrapper" aria-hidden="true">
+              <span class="mobile-menu-text">MENU</span>
+              <span class="mobile-menu-text">CLOSE</span>
+            </span>
+          </button>
+        </div>
+
+        <div class="mobile-nav-content" id="mobile-nav-content" aria-hidden="true">
+          <div class="nav-link-mobile-list">
+            <div class="nav-link-mobile-item"><a href="#introduction" class="mobile-link">Introduction</a></div>
+            <div class="nav-link-mobile-item"><a href="#problem" class="mobile-link">Problem</a></div>
+            <div class="nav-link-mobile-item"><a href="#solution" class="mobile-link">Solution</a></div>
+            <div class="nav-link-mobile-item"><a href="#experience" class="mobile-link">Experience</a></div>
+            <div class="nav-link-mobile-item"><a href="#services" class="mobile-link">Services</a></div>
+            <div class="nav-link-mobile-item"><a href="#contact" class="mobile-link">Contact</a></div>
+          </div>
+
+          <div class="mobile-contact-info-wrapper">
+            <div class="mobile-contact-info-item">
+              <p>Email</p>
+              <a href="mailto:luke@links-creative.com">luke@links-creative.com</a>
+            </div>
+            <div class="mobile-contact-info-item mobile-contact-info-item--story">
+              <span>Exceptional places deserve exceptional stories</span>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section-anchor" id="introduction">
+        <div class="hero-media" aria-hidden="true">
+          <div class="hero-slide is-active" style="background-image: url('/studio/assets/web/hero-banner-01.jpg')"></div>
+          <div class="hero-slide" style="background-image: url('/studio/assets/web/hero-banner-02.jpg')"></div>
+          <div class="hero-slide" style="background-image: url('/studio/assets/web/hero-banner-03.jpg')"></div>
+          <div class="hero-slide" style="background-image: url('/studio/assets/web/hero-banner-04.jpg')"></div>
+        </div>
+        <div class="hero-copy">
+          <h1>Exceptional places<br>deserve exceptional stories</h1>
+          <p>We create brands, stories and digital experiences that align perception with reality, helping remarkable places communicate their true value.</p>
+          <a class="button button-light" href="#contact">Enquire <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="hero-copy hero-copy--light" aria-hidden="true">
+          <h1>Exceptional places<br>deserve exceptional stories</h1>
+          <p>We create brands, stories and digital experiences that align perception with reality, helping remarkable places communicate their true value.</p>
+          <span class="button button-light">Enquire <span>→</span></span>
+        </div>
+      </section>
+
+      <section class="touchpoints section-anchor" id="problem">
+        <div class="touchpoints-pin">
+          <div class="section-heading">
+            <h2>Guests experience your brand<br>before they experience your destination</h2>
+          </div>
+
+          <div class="touchpoint-grid" aria-label="Guest touchpoints">
+            <article class="touchpoint-card">
+              <img src="/studio/assets/web/touchpoint-website.jpg" alt="A laptop showing a luxury destination website" loading="lazy" decoding="async">
+              <h3>Through your<br><strong>website</strong></h3>
+            </article>
+            <article class="touchpoint-card">
+              <img src="/studio/assets/web/touchpoint-photography.jpg" alt="Guests walking through a tropical resort entrance" loading="lazy" decoding="async">
+              <h3>Through your<br><strong>photography</strong></h3>
+            </article>
+            <article class="touchpoint-card">
+              <img src="/studio/assets/web/touchpoint-content.jpg" alt="A phone showing destination content" loading="lazy" decoding="async">
+              <h3>Through your<br><strong>content</strong></h3>
+            </article>
+            <article class="touchpoint-card">
+              <img src="/studio/assets/web/touchpoint-story.jpg" alt="Aerial view of clear blue ocean" loading="lazy" decoding="async">
+              <h3>Through your<br><strong>story</strong></h3>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="consequence-copy" aria-label="Positive guest outcomes">
+        <div class="consequence-pin">
+          <p class="consequence-intro">When every touchpoint reflects<span class="mobile-line-break"></span> the quality of the experience,<br class="desktop-line-break"><span class="mobile-line-break"></span>confidence grows, decisions come easier<span class="mobile-line-break"></span> and brands perform more effectively.</p>
+          <div class="consequence-list" aria-label="Outcome sequence">
+            <div class="consequence-list__active">
+              <span class="consequence-line consequence-line--regular"><span>Guests don’t hesitate</span></span>
+              <span class="consequence-line"><span>More enquiries</span></span>
+              <span class="consequence-line consequence-line--break"><span>More bookings</span></span>
+              <span class="consequence-break" aria-hidden="true"></span>
+              <span class="consequence-line"><span>More recommendations</span></span>
+              <span class="consequence-line"><span>Premium pricing becomes easier to justify</span></span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="gap section-anchor" id="solution">
+        <div class="gap-sticky">
+          <p>We help close the gap between</p>
+          <div class="gap-words">
+            <span class="gap-word gap-word-perception">Perception</span>
+            <span class="gap-word gap-word-ampersand" aria-hidden="true">&amp;</span>
+            <span class="gap-word gap-word-place">Place</span>
+          </div>
+          <div class="gap-gallery" aria-label="Destination image sequence">
+            <img class="gap-gallery-frame is-active" src="/studio/assets/web/gap-tile-1.jpg" alt="A guest seated in a sunlit garden landscape" loading="lazy" decoding="async">
+            <img class="gap-gallery-frame" src="/studio/assets/web/gap-tile-2.jpg" alt="A guest in a pool overlooking a tropical sunset" loading="lazy" decoding="async">
+            <img class="gap-gallery-frame" src="/studio/assets/web/gap-tile-3.jpg" alt="A guest looking out over a city at sunset" loading="lazy" decoding="async">
+            <img class="gap-gallery-frame" src="/studio/assets/web/gap-tile-4.jpg" alt="A guest relaxing in a serene pool" loading="lazy" decoding="async">
+            <img class="gap-gallery-frame" src="/studio/assets/web/gap-tile-5.jpg" alt="A swimmer above clear turquoise water" loading="lazy" decoding="async">
+          </div>
+        </div>
+      </section>
+
+      <section class="black-band">
+        <div class="band-inner">
+          <h2>Creating alignment across every touchpoint</h2>
+          <div class="feature-row">
+            <article>
+              <h3>Brand Direction</h3>
+              <p>Positioning, identity systems<br>and creative direction.</p>
+            </article>
+            <article>
+              <h3>Visual Storytelling</h3>
+              <p>Photography, content creation<br>and destination-led narratives.</p>
+            </article>
+            <article>
+              <h3>Digital Experiences</h3>
+              <p>Websites designed to inspire confidence<br>and build anticipation.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="experience section-anchor" id="experience">
+        <div class="image-composition">
+          <img class="image-founder" src="/studio/assets/web/founder-garden.jpg" alt="Founder seated in a garden setting" loading="lazy" decoding="async">
+          <img class="image-laptop" src="/studio/assets/web/laptop-brand.jpg" alt="A laptop showing a property brand presentation" loading="lazy" decoding="async">
+        </div>
+
+        <div class="experience-copy">
+          <div class="experience-copy__pin">
+            <h2>Built on over 12 years of<br>premium property experience</h2>
+            <p>LINKS has delivered creative work for luxury residential,<br class="experience-copy-break">commercial and lifestyle brands across the UK and internationally.</p>
+
+            <div class="metrics-row">
+              <p>12+ years agency experience<br>at Director level</p>
+              <p>£200m+<br>accounts supported</p>
+              <p>Luxury property<br>specialist</p>
+              <p>From independent brands<br>to global organisations</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="brand-collage">
+          <div class="logo-pair">
+            <img src="/studio/assets/web/cascades.jpg" alt="Cascades brand visual" loading="lazy" decoding="async">
+            <img src="/studio/assets/web/alba-logo.jpg" alt="Alba luxury resort and spa brand visual" loading="lazy" decoding="async">
+          </div>
+          <img class="tote" src="/studio/assets/web/alba-tote.jpg" alt="Alba branded tote bag" loading="lazy" decoding="async">
+          <div class="portfolio-pair">
+            <img class="portfolio-city" src="/studio/assets/web/portfolio-city-country-foil.jpg" alt="City and Country gold foil brand detail" loading="lazy" decoding="async">
+            <img class="portfolio-osborn-mark" src="/studio/assets/web/portfolio-osborn-mark.jpg" alt="Osborn Apartments brand mark detail" loading="lazy" decoding="async">
+            <img class="portfolio-osborn-designed" src="/studio/assets/web/portfolio-osborn-designed.jpg" alt="Osborn Apartments editorial design detail" loading="lazy" decoding="async">
+          </div>
+        </div>
+      </section>
+
+      <section class="black-band services section-anchor" id="services">
+        <div class="band-inner">
+          <h2>Creative leadership for exceptional destinations</h2>
+          <div class="feature-row service-row">
+            <article>
+              <h3>Brand Audit</h3>
+              <p>Identify opportunities to<br>better align experience and perception.</p>
+              <a class="button button-dark" href="#contact">Enquire <span aria-hidden="true">→</span></a>
+            </article>
+            <article>
+              <h3>Brand &amp; Content Refresh</h3>
+              <p>Elevate how your destination<br>is presented across every touchpoint.</p>
+              <a class="button button-dark" href="#contact">Enquire <span aria-hidden="true">→</span></a>
+            </article>
+            <article>
+              <h3>Destination Partnership</h3>
+              <p>On-site creative direction,<br>content creation and strategic support.</p>
+              <a class="button button-dark" href="#contact">Enquire <span aria-hidden="true">→</span></a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="final-cta section-anchor" id="contact">
+        <div class="final-copy">
+          <h2>Perception<br class="mobile-line-break"> creates value</h2>
+          <p>Let's create something worth travelling for.</p>
+          <a class="button button-light" href="mailto:luke@links-creative.com">Start a conversation <span aria-hidden="true">→</span></a>
+        </div>
+        <footer class="footer-lockup">
+          <p>Exceptional places<br>deserve exceptional stories</p>
+          <div class="brand brand-footer brand-logo"><img src="/studio/assets/web/logo-light.png" alt="LINKS Studio" decoding="async"></div>
+          <p>©Luke Inkles<br>links-creative.com</p>
+        </footer>
+      </section>
+    </main>
+    <script is:inline>
+      (() => {
+        const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        const tabletMaxWidth = 1194;
+        const menu = document.querySelector('.mobile-nav-content');
+        const openButton = document.querySelector('.button-menu');
+        const links = document.querySelectorAll('.mobile-nav-content a, .container-nav .brand');
+
+        if (menu && openButton) {
+          const setOpen = (open) => {
+            document.body.classList.toggle('phone-menu-open', open);
+            menu.setAttribute('aria-hidden', String(!open));
+            openButton.setAttribute('aria-expanded', String(open));
+            openButton.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+          };
+
+          openButton.addEventListener('click', () => setOpen(!document.body.classList.contains('phone-menu-open')));
+          links.forEach((link) => link.addEventListener('click', () => setOpen(false)));
+          document.addEventListener('keydown', (event) => {
+            if (event.key === 'Escape') setOpen(false);
+          });
+        }
+
+        const revealItems = new Set();
+        const individualSelectors = [
+          '.section-heading',
+          '.gap-sticky > p',
+          '.black-band h2',
+          '.final-copy',
+          '.footer-lockup'
+        ];
+        const rowSelectors = [
+          '.feature-row article'
+        ];
+
+        individualSelectors.forEach((selector) => {
+          document.querySelectorAll(selector).forEach((item) => {
+            if (item.closest('.touchpoints-pin') && window.innerWidth > 767) return;
+            revealItems.add(item);
+          });
+        });
+
+        const consequenceIntro = document.querySelector('.consequence-intro');
+        if (consequenceIntro) {
+          consequenceIntro.style.setProperty('--reveal-delay', '0ms');
+          revealItems.add(consequenceIntro);
+        }
+
+        const setRowDelays = (selector) => {
+          const items = Array.from(document.querySelectorAll(selector));
+          const rows = [];
+
+          items.forEach((item) => {
+            revealItems.add(item);
+            const rect = item.getBoundingClientRect();
+            let row = rows.find((candidate) => Math.abs(candidate.top - rect.top) < 4);
+
+            if (!row) {
+              row = { top: rect.top, items: [] };
+              rows.push(row);
+            }
+
+            row.items.push({ item, left: rect.left });
+          });
+
+          rows.forEach((row) => {
+            row.items
+              .sort((a, b) => a.left - b.left)
+              .forEach(({ item }, index) => {
+                item.style.setProperty('--reveal-delay', `${index * 100}ms`);
+              });
+          });
+        };
+
+        rowSelectors.forEach(setRowDelays);
+
+        if (window.innerWidth <= 767) {
+          setRowDelays('.touchpoint-card');
+        }
+
+        revealItems.forEach((item) => item.classList.add('reveal'));
+        requestAnimationFrame(() => document.body.classList.add('motion-ready'));
+
+        if ('IntersectionObserver' in window) {
+          const revealObserver = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+              if (!entry.isIntersecting) return;
+              entry.target.classList.add('is-visible');
+              revealObserver.unobserve(entry.target);
+            });
+          }, { rootMargin: '0px 0px -6% 0px', threshold: 0.08 });
+
+          revealItems.forEach((item) => revealObserver.observe(item));
+        } else {
+          revealItems.forEach((item) => item.classList.add('is-visible'));
+        }
+
+        if (reduceMotion) {
+          revealItems.forEach((item) => item.classList.add('is-visible'));
+        }
+
+        const parallaxSections = [
+          {
+            section: document.querySelector('.hero'),
+            copyTargets: Array.from(document.querySelectorAll('.hero-copy')),
+            bgTarget: document.querySelector('.hero-media'),
+            copyVar: '--hero-copy-parallax-y',
+            bgVar: '--hero-bg-parallax-y',
+            desktopCopyRange: 210,
+            tabletCopyRange: 160,
+            mobileCopyRange: 105,
+            desktopBgRange: 620,
+            tabletBgRange: 460,
+            mobileBgRange: 320
+          },
+          {
+            section: document.querySelector('.final-cta'),
+            copyTargets: Array.from(document.querySelectorAll('.final-copy')),
+            bgTarget: document.querySelector('.final-cta'),
+            copyVar: '--footer-copy-parallax-y',
+            bgVar: '--footer-bg-parallax-y',
+            desktopCopyRange: 210,
+            tabletCopyRange: 160,
+            mobileCopyRange: 105,
+            desktopBgRange: 620,
+            tabletBgRange: 460,
+            mobileBgRange: 320
+          }
+        ].filter(({ section }) => section);
+
+        if (!reduceMotion && parallaxSections.length) {
+          let parallaxTicking = false;
+          const clampParallax = (value, min, max) => Math.min(Math.max(value, min), max);
+          const getRange = (item, type) => {
+            const prefix = window.innerWidth <= 767 ? 'mobile' : window.innerWidth <= tabletMaxWidth ? 'tablet' : 'desktop';
+            return item[`${prefix}${type}Range`];
+          };
+
+          const updateSectionParallax = () => {
+            parallaxTicking = false;
+            const viewportHeight = window.innerHeight || document.documentElement.clientHeight;
+
+            parallaxSections.forEach((item) => {
+              const rect = item.section.getBoundingClientRect();
+              const progress = clampParallax((viewportHeight - rect.top) / (viewportHeight + rect.height), 0, 1);
+              const copyRange = getRange(item, 'Copy');
+              const bgRange = getRange(item, 'Bg');
+              const copyY = Math.round((0.5 - progress) * copyRange);
+              const bgY = Math.round((progress - 0.5) * bgRange);
+
+              item.copyTargets.forEach((target) => {
+                target.style.setProperty(item.copyVar, `${copyY}px`);
+              });
+
+              if (item.bgTarget) {
+                item.bgTarget.style.setProperty(item.bgVar, `${bgY}px`);
+              }
+            });
+          };
+
+          const requestSectionParallax = () => {
+            if (parallaxTicking) return;
+            parallaxTicking = true;
+            requestAnimationFrame(updateSectionParallax);
+          };
+
+          updateSectionParallax();
+          window.addEventListener('scroll', requestSectionParallax, { passive: true });
+          window.addEventListener('resize', requestSectionParallax);
+        }
+
+        const consequenceSection = document.querySelector('.consequence-copy');
+        const consequenceLines = Array.from(document.querySelectorAll('.consequence-line'));
+
+        if (consequenceSection && consequenceLines.length) {
+          let consequenceTicking = false;
+          const clampConsequence = (value, min, max) => Math.min(Math.max(value, min), max);
+          const smoothConsequence = (value) => 0.5 - Math.cos(value * Math.PI) / 2;
+
+          const updateConsequenceSequence = () => {
+            consequenceTicking = false;
+
+            const rect = consequenceSection.getBoundingClientRect();
+            const headerHeight = window.innerWidth <= tabletMaxWidth ? 40 : 50;
+            const travel = Math.max(rect.height - window.innerHeight, 1);
+            const timeline = clampConsequence((headerHeight - rect.top) / travel, 0, 1);
+            const revealStart = 0.08;
+            const revealEnd = 0.86;
+            const revealWindow = revealEnd - revealStart;
+            const step = revealWindow / consequenceLines.length;
+
+            consequenceLines.forEach((line, index) => {
+              const lineStart = revealStart + index * step;
+              const progress = smoothConsequence(clampConsequence((timeline - lineStart) / (step * 0.78), 0, 1));
+              line.style.setProperty('--line-reveal', String(progress));
+              line.style.setProperty('--line-clip-top', `${Math.round((1 - progress) * 100)}%`);
+            });
+          };
+
+          const requestConsequenceSequence = () => {
+            if (consequenceTicking) return;
+            consequenceTicking = true;
+            requestAnimationFrame(updateConsequenceSequence);
+          };
+
+          updateConsequenceSequence();
+          window.addEventListener('scroll', requestConsequenceSequence, { passive: true });
+          window.addEventListener('resize', requestConsequenceSequence);
+        }
+
+        if (reduceMotion && consequenceLines.length) {
+          consequenceLines.forEach((line) => {
+            line.style.setProperty('--line-reveal', '1');
+            line.style.setProperty('--line-clip-top', '0%');
+          });
+        }
+
+        const touchpointsSection = document.querySelector('.touchpoints');
+        const touchpointCards = Array.from(document.querySelectorAll('.touchpoint-card'));
+
+        if (touchpointsSection && touchpointCards.length && window.innerWidth > 767) {
+          const clampValue = (value, min, max) => Math.min(Math.max(value, min), max);
+          const smoothValue = (value) => 0.5 - Math.cos(value * Math.PI) / 2;
+          let touchpointsTicking = false;
+
+          const setTouchpointsProgress = () => {
+            touchpointsTicking = false;
+
+            if (reduceMotion) {
+              touchpointCards.forEach((card) => {
+                card.style.setProperty('--touchpoint-card-opacity', '1');
+                card.style.setProperty('--touchpoint-card-y', '0px');
+              });
+              return;
+            }
+
+            const rect = touchpointsSection.getBoundingClientRect();
+            const headerHeight = window.innerWidth <= tabletMaxWidth ? 40 : 50;
+            const travel = Math.max(rect.height - window.innerHeight, 1);
+            const timeline = clampValue((headerHeight - rect.top) / travel, 0, 1);
+
+            touchpointCards.forEach((card, index) => {
+              const start = 0.16 + index * 0.14;
+              const progress = smoothValue(clampValue((timeline - start) / 0.16, 0, 1));
+              card.style.setProperty('--touchpoint-card-opacity', String(progress));
+              card.style.setProperty('--touchpoint-card-y', `${Math.round((1 - progress) * 76)}px`);
+            });
+          };
+
+          const requestTouchpointsProgress = () => {
+            if (touchpointsTicking) return;
+            touchpointsTicking = true;
+            requestAnimationFrame(setTouchpointsProgress);
+          };
+
+          setTouchpointsProgress();
+          window.addEventListener('scroll', requestTouchpointsProgress, { passive: true });
+          window.addEventListener('resize', requestTouchpointsProgress);
+        }
+
+        const experience = document.querySelector('.experience');
+        const experienceCopy = document.querySelector('.experience-copy');
+        const experienceTitle = document.querySelector('.experience-copy h2');
+        const experienceBody = document.querySelector('.experience-copy p');
+        const experienceMetrics = document.querySelector('.metrics-row');
+
+        if (experience && experienceCopy && experienceTitle && experienceBody && experienceMetrics) {
+          const titleWords = ['Built', 'on', 'over', '12', 'years', 'of', 'premium', 'property', 'experience'];
+          experienceTitle.innerHTML = titleWords.map((word, index) => {
+            const suffix = index === 5 ? '&nbsp;' : index === 6 ? '<br>' : ' ';
+            return `<span class="experience-word">${word}</span>${suffix}`;
+          }).join('');
+
+          const experienceWords = Array.from(experienceTitle.querySelectorAll('.experience-word'));
+          const imageItems = [
+            { name: 'founder', element: document.querySelector('.image-founder'), slowdown: 180, revealDistance: 120 },
+            { name: 'laptop', element: document.querySelector('.image-laptop'), slowdown: 300, revealDistance: 115 },
+            { name: 'cascades', element: document.querySelector('.logo-pair img:first-child'), slowdown: 450, revealDistance: 76 },
+            { name: 'alba', element: document.querySelector('.logo-pair img:last-child'), slowdown: 450, revealDistance: 76 },
+            { name: 'tote', element: document.querySelector('.tote'), slowdown: 680, revealDistance: 82 },
+            { name: 'city', element: document.querySelector('.portfolio-city'), slowdown: 540, revealDistance: 78 },
+            { name: 'osborn-mark', element: document.querySelector('.portfolio-osborn-mark'), slowdown: 820, revealDistance: 72 },
+            { name: 'osborn-designed', element: document.querySelector('.portfolio-osborn-designed'), slowdown: 940, revealDistance: 72 }
+          ].filter(({ element }) => element);
+          const clampValue = (value, min, max) => Math.min(Math.max(value, min), max);
+          const smoothValue = (value) => 0.5 - Math.cos(value * Math.PI) / 2;
+          const linearValue = (value) => value;
+          let experienceTicking = false;
+
+          const setExperienceProgress = () => {
+            experienceTicking = false;
+
+            if (reduceMotion) {
+              experienceWords.forEach((word) => {
+                word.style.opacity = '1';
+                word.style.transform = 'none';
+              });
+              experienceBody.style.opacity = '1';
+              experienceBody.style.transform = 'none';
+              experienceMetrics.style.opacity = '1';
+              experienceMetrics.style.transform = 'none';
+              experienceCopy.style.opacity = '1';
+              [
+                'founder',
+                'laptop',
+                'cascades',
+                'alba',
+                'tote',
+                'city',
+                'osborn-mark',
+                'osborn-designed'
+              ].forEach((name) => {
+                experience.style.setProperty(`--experience-${name}-opacity`, '1');
+                experience.style.setProperty(`--experience-${name}-reveal-y`, '0px');
+                experience.style.setProperty(`--experience-${name}-y`, '0px');
+              });
+              return;
+            }
+
+            const rect = experience.getBoundingClientRect();
+            const headerHeight = window.innerWidth <= tabletMaxWidth ? 40 : 50;
+            const shouldPinCopy = window.innerWidth > 767 && rect.top <= headerHeight && rect.bottom > headerHeight;
+            experienceCopy.classList.toggle('experience-copy--fixed', shouldPinCopy);
+            const travel = Math.max(rect.height - window.innerHeight, 1);
+            const timeline = clampValue((headerHeight - rect.top + window.innerHeight * 0.18) / travel, 0, 1);
+
+            experienceWords.forEach((word, index) => {
+              const start = 0.015 + index * 0.022;
+              const progress = smoothValue(clampValue((timeline - start) / 0.095, 0, 1));
+              word.style.opacity = String(progress);
+              word.style.transform = `translate3d(0, ${(1 - progress) * 14}px, 0)`;
+            });
+
+            const bodyProgress = smoothValue(clampValue((timeline - 0.18) / 0.08, 0, 1));
+            const metricsProgress = smoothValue(clampValue((timeline - 0.215) / 0.085, 0, 1));
+            experienceBody.style.opacity = String(bodyProgress);
+            experienceBody.style.transform = `translate3d(0, ${(1 - bodyProgress) * 16}px, 0)`;
+            experienceMetrics.style.opacity = String(metricsProgress);
+            experienceMetrics.style.transform = `translate3d(0, ${(1 - metricsProgress) * 16}px, 0)`;
+
+            experienceCopy.style.opacity = '1';
+
+            const getExperienceOffsetTop = (element) => {
+              let offset = 0;
+              let node = element;
+
+              while (node && node !== experience) {
+                offset += node.offsetTop || 0;
+                node = node.offsetParent;
+              }
+
+              return offset;
+            };
+
+            const revealStart = window.innerHeight * 0.94;
+            const revealDistance = window.innerHeight * 0.48;
+
+            imageItems.forEach(({ name, element, slowdown, revealDistance: imageRevealDistance }) => {
+              const itemTop = rect.top + getExperienceOffsetTop(element);
+              const revealProgress = linearValue(clampValue((revealStart - itemTop) / revealDistance, 0, 1));
+              const mobileImage = window.innerWidth <= 767;
+              const tabletImage = window.innerWidth > 767 && window.innerWidth <= tabletMaxWidth;
+              const tabletSlowdowns = {
+                founder: 330,
+                laptop: 350,
+                cascades: 315,
+                alba: 315,
+                tote: 345,
+                city: 330,
+                'osborn-mark': 390,
+                'osborn-designed': 420
+              };
+              const itemSlowdown = mobileImage ? 180 : tabletImage ? tabletSlowdowns[name] : slowdown;
+              const scrollDistance = (window.innerHeight * (mobileImage ? 2.75 : tabletImage ? 2.45 : 1.8)) + element.offsetHeight;
+              const slowProgress = linearValue(clampValue((revealStart - itemTop) / scrollDistance, 0, 1));
+
+              experience.style.setProperty(`--experience-${name}-y`, `${Math.round(slowProgress * itemSlowdown)}px`);
+              experience.style.setProperty(`--experience-${name}-opacity`, String(revealProgress));
+              const revealOffset = mobileImage ? 0 : Math.round((1 - revealProgress) * (tabletImage ? Math.min(imageRevealDistance, 28) : imageRevealDistance));
+              experience.style.setProperty(`--experience-${name}-reveal-y`, `${revealOffset}px`);
+            });
+
+          };
+
+          const requestExperienceProgress = () => {
+            if (experienceTicking) return;
+            experienceTicking = true;
+            requestAnimationFrame(setExperienceProgress);
+          };
+
+          setExperienceProgress();
+          window.addEventListener('scroll', requestExperienceProgress, { passive: true });
+          window.addEventListener('resize', requestExperienceProgress);
+        }
+
+        const heroSlides = Array.from(document.querySelectorAll('.hero-slide'));
+
+        if (heroSlides.length > 1) {
+          let activeHeroSlide = 0;
+          window.setInterval(() => {
+            heroSlides[activeHeroSlide].classList.remove('is-active');
+            activeHeroSlide = (activeHeroSlide + 1) % heroSlides.length;
+            heroSlides[activeHeroSlide].classList.add('is-active');
+          }, 4000);
+        }
+
+        const gapSection = document.querySelector('.gap');
+        const perception = document.querySelector('.gap-word-perception');
+        const ampersand = document.querySelector('.gap-word-ampersand');
+        const place = document.querySelector('.gap-word-place');
+        const gapWords = document.querySelector('.gap-words');
+        const gapGallery = document.querySelector('.gap-gallery');
+        const gapFrames = Array.from(document.querySelectorAll('.gap-gallery-frame'));
+
+        if (!reduceMotion && gapSection && perception && ampersand && place && gapWords && gapGallery) {
+          let gapTicking = false;
+
+          const clamp = (value, min, max) => Math.min(Math.max(value, min), max);
+          const ease = (value) => 0.5 - Math.cos(value * Math.PI) / 2;
+
+          const updateGapAnimation = () => {
+            gapTicking = false;
+
+            const rect = gapSection.getBoundingClientRect();
+            const sticky = gapSection.querySelector('.gap-sticky');
+            const headerHeight = window.innerWidth <= tabletMaxWidth ? 40 : 50;
+            const travel = Math.max(rect.height - sticky.offsetHeight, 1);
+            const timeline = clamp((headerHeight - rect.top) / travel, 0, 1);
+
+            if (window.innerWidth <= tabletMaxWidth) {
+              const isPhone = window.innerWidth <= 767;
+              const wordProgress = ease(clamp(timeline / 0.28, 0, 1));
+              const imageIntro = ease(clamp((timeline - (isPhone ? 0.34 : 0.18)) / 0.12, 0, 1));
+              const textFade = ease(clamp((timeline - (isPhone ? 0.36 : 0.2)) / 0.14, 0, 1));
+
+              const perceptionDistance = isPhone ? 390 : Math.round(Math.min(340, Math.max(245, window.innerHeight * 0.31)));
+              const ampersandDistance = isPhone ? 190 : Math.round(perceptionDistance * 0.52);
+              const perceptionY = Math.round((1 - wordProgress) * perceptionDistance);
+              const ampersandY = Math.round((1 - wordProgress) * ampersandDistance);
+              perception.style.transform = `translate3d(0, ${perceptionDistance - perceptionY}px, 0)`;
+              ampersand.style.transform = `translate3d(0, ${ampersandDistance - ampersandY}px, 0)`;
+
+              ampersand.style.opacity = String(wordProgress);
+              place.style.transform = 'translate3d(0, 0, 0)';
+              const tabletTextFade = isPhone ? textFade : ease(clamp((timeline - 0.32) / 0.16, 0, 1));
+              const tabletImageIntro = isPhone ? imageIntro : ease(clamp((timeline - 0.4) / 0.14, 0, 1));
+              gapWords.style.opacity = String(1 - tabletTextFade * 0.82);
+              gapGallery.style.opacity = String(tabletImageIntro);
+              gapGallery.style.transform = `translate3d(-50%, 0, 0) translate3d(0, ${Math.round((1 - tabletImageIntro) * (isPhone ? 24 : 170))}px, 0)`;
+
+              const imageProgress = clamp((timeline - (isPhone ? 0.46 : 0.5)) / (isPhone ? 0.44 : 0.42), 0, 0.999999);
+              const frameDistance = 1 / gapFrames.length;
+              const activeFrame = Math.min(Math.floor(imageProgress / frameDistance), gapFrames.length - 1);
+              gapFrames.forEach((frame, index) => {
+                frame.classList.toggle('is-active', index === activeFrame);
+              });
+              return;
+            }
+
+            const progress = ease(clamp(timeline / 0.22, 0, 1));
+            const words = perception.parentElement;
+            const wordsRect = words.getBoundingClientRect();
+            const perceptionLeft = wordsRect.left + perception.offsetLeft;
+            const perceptionRight = perceptionLeft + perception.offsetWidth;
+            const placeLeft = wordsRect.left + place.offsetLeft;
+            const ampersandLeft = wordsRect.left + ampersand.offsetLeft;
+            const ampersandCenter = ampersandLeft + ampersand.offsetWidth / 2;
+            const edgeBuffer = 12;
+            const perceptionStart = -(perceptionRight + edgeBuffer);
+            const placeStart = window.innerWidth - placeLeft + edgeBuffer;
+            const ampersandStart = window.innerWidth / 2 - ampersandCenter;
+
+            perception.style.transform = `translate3d(${Math.round(perceptionStart * (1 - progress))}px, 0, 0)`;
+            place.style.transform = `translate3d(${Math.round(placeStart * (1 - progress))}px, 0, 0)`;
+            ampersand.style.transform = `translate3d(${Math.round(ampersandStart * (1 - progress))}px, 0, 0)`;
+            ampersand.style.opacity = String(progress);
+
+            const textFade = ease(clamp((timeline - 0.2) / 0.14, 0, 1));
+            const imageIntro = ease(clamp((timeline - 0.24) / 0.12, 0, 1));
+            gapWords.style.opacity = String(1 - textFade * 0.82);
+            gapGallery.style.opacity = String(imageIntro);
+            gapGallery.style.transform = `translate3d(-50%, ${Math.round((1 - imageIntro) * 28)}px, 0)`;
+
+            const imageProgress = clamp((timeline - 0.34) / 0.56, 0, 0.999999);
+            const frameDistance = 1 / gapFrames.length;
+            const activeFrame = Math.min(Math.floor(imageProgress / frameDistance), gapFrames.length - 1);
+            gapFrames.forEach((frame, index) => {
+              frame.classList.toggle('is-active', index === activeFrame);
+            });
+          };
+
+          const requestGapAnimation = () => {
+            if (gapTicking) return;
+            gapTicking = true;
+            requestAnimationFrame(updateGapAnimation);
+          };
+
+          updateGapAnimation();
+          window.addEventListener('scroll', requestGapAnimation, { passive: true });
+          window.addEventListener('resize', requestGapAnimation);
+        } else if (ampersand && window.innerWidth > 767) {
+          ampersand.style.opacity = '1';
+          if (gapWords) gapWords.style.opacity = '0.18';
+          if (gapGallery) {
+            gapGallery.style.opacity = '1';
+            gapGallery.style.transform = 'translate3d(-50%, 0, 0)';
+          }
+          gapFrames.forEach((frame, index) => frame.classList.toggle('is-active', index === gapFrames.length - 1));
+        }
+      })();
+    </script>
+  
+  </body>
+</html>
