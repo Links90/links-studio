@@ -193,8 +193,8 @@ const socialImage = '/studio/assets/web/hero-banner-01.jpg';
 
         <div class="experience-copy">
           <div class="experience-copy__pin">
-            <h2>Over 12 years shaping premium brands and experiences.</h2>
-            <p>LINKS has partnered with ambitious brands across luxury property, lifestyle and commercial sectors, creating distinctive identities, digital experiences and campaigns that elevate perception and communicate value.</p>
+            <h2><span>Over 12 years shaping</span><span>premium brands and experiences.</span></h2>
+            <p><span>LINKS has partnered with ambitious brands across luxury property, lifestyle and commercial sectors,</span><span>creating distinctive identities, digital experiences and campaigns that elevate perception and communicate value.</span></p>
 
             <div class="metrics-row">
               <p>12+ years agency experience<br>at Director level</p>
@@ -522,12 +522,11 @@ const socialImage = '/studio/assets/web/hero-banner-01.jpg';
         const experienceMetrics = document.querySelector('.metrics-row');
 
         if (experience && experienceCopy && experienceTitle && experienceBody && experienceMetrics) {
-          // Build the animated word spans from the visible heading, so wording changes in
-          // the <h2> above are never overwritten by an older hard-coded title here.
-          const titleWords = experienceTitle.textContent.trim().split(/\s+/);
-          experienceTitle.innerHTML = titleWords
-            .map((word) => `<span class="experience-word">${word}</span>`)
-            .join(' ');
+          const titleWords = ['Built', 'on', 'over', '12', 'years', 'of', 'premium', 'property', 'experience'];
+          experienceTitle.innerHTML = titleWords.map((word, index) => {
+            const suffix = index === 5 ? '&nbsp;' : index === 6 ? '<br>' : ' ';
+            return `<span class="experience-word">${word}</span>${suffix}`;
+          }).join('');
 
           const experienceWords = Array.from(experienceTitle.querySelectorAll('.experience-word'));
           const imageItems = [
