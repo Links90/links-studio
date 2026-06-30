@@ -848,14 +848,23 @@ h1 {
 .experience-copy__pin {
   position: relative;
   top: auto;
+  width: min(1320px, calc(100vw - 80px));
+  margin: 0 auto;
   min-height: 0;
   padding-top: 0;
 }
 
 .experience-copy h2 {
+  max-width: 1320px;
+  margin: 0 auto;
   font-size: 80px;
   font-weight: var(--weight-thin);
   line-height: 1.1;
+}
+
+.experience-copy h2 > span,
+.experience-copy p > span {
+  display: block;
 }
 
 .experience-copy h2 .experience-word {
@@ -866,7 +875,7 @@ h1 {
 }
 
 .experience-copy p {
-  max-width: none;
+  max-width: 1120px;
   margin: 50px auto 75px;
   font-size: 16px;
   font-weight: var(--weight-regular);
@@ -1401,15 +1410,18 @@ h1 {
   }
 
   .experience-copy__pin {
+    width: min(1080px, calc(100vw - 80px));
     min-height: 0;
     padding-top: 0;
   }
 
   .experience-copy h2 {
+    max-width: 1080px;
     font-size: 60px;
   }
 
   .experience-copy p {
+    max-width: 960px;
     margin: 40px auto 70px;
     font-size: 14px;
   }
@@ -1886,7 +1898,7 @@ h1 {
   }
 
   .experience-copy__pin {
-    width: min(760px, calc(100vw - (var(--tablet-gutter) * 2)));
+    width: min(900px, calc(100vw - (var(--tablet-gutter) * 2)));
     margin: 0 auto;
     top: auto;
     min-height: 0;
@@ -1894,12 +1906,13 @@ h1 {
   }
 
   .experience-copy h2 {
+    max-width: 900px;
     font-size: clamp(50px, 6vw, 64px);
     line-height: 110%;
   }
 
   .experience-copy p {
-    max-width: 760px;
+    max-width: 780px;
     margin: 40px auto 75px;
     font-size: 14px;
     line-height: 140%;
@@ -2626,13 +2639,14 @@ h1 {
   }
 
   .experience-copy__pin {
-    width: min(688px, calc(100vw - 80px));
+    width: min(390px, calc(100vw - 40px));
     top: auto;
     min-height: 0;
     padding-top: 0;
   }
 
   .experience-copy h2 {
+    max-width: 390px;
     font-size: 30px;
     line-height: 110%;
   }
